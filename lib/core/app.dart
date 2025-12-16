@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../home_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:,
+      home: HomePage(),
     );
   }
 }
