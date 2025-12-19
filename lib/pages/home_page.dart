@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
+import 'juice_2.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -102,7 +104,7 @@ class HomePageState extends State<HomePage> {
               //
               InkWell(
                 onTap: () {
-                  //Get.to(() => Juice2());
+                  Get.to(() => Juice2());
                 },
                 child: Container(
                   margin: EdgeInsets.symmetric(horizontal: 40),
