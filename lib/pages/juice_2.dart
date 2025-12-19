@@ -7,6 +7,11 @@ class Juice2 extends StatefulWidget {
   State<Juice2> createState() => _Juice2State();
 }
 
+List flavor = [];
+List names = [];
+List amount = [];
+List location = [];
+
 class _Juice2State extends State<Juice2> {
   @override
   Widget build(BuildContext context) {
